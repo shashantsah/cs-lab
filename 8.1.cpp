@@ -45,13 +45,13 @@ class tape: public publication{
     void getdata2(){
         getdata();
         float pt;
-        cout<<"enter page count::";
+        cout<<"playing time::";
         cin>>pt;
         play_time= pt;
     }
     void putdata2(){
         putdata();
-        cout<<"page count:-"<<play_time<<endl;
+        cout<<"play_time:-"<<play_time<<endl;
     }
 
 };
